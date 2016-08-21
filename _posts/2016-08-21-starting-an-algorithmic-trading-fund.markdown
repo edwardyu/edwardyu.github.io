@@ -24,12 +24,15 @@ When I first started, I had fanciful notions of creating new kernels for SVMs or
 Our statistical arbitrage research involves finding mismatches in derivatives pricing. This of course is a deep rabbit hole...we touch all sorts of volatility and pricing models and try to glean insight into which models are useful and which are just academic fantasies (the vast majority fall into the latter). It did, however, lead me to a very interesting branch of finance called econophysics - i.e., applying physics equations to economics. One quant wrote that every beginning quant with a physics background wants to apply quantum mechanics to finance. Very rarely are they successful. 
 
 # Lessons learned so far
-## Never trust the normal distribution 
+
+#### Never trust the normal distribution 
+
 ![Normal distribution](/assets/normal.jpg)
 
 I love the normal distribution, I really do. It's so intuitive and has nice mathematical properties. Parameter estimation is a breeze. And with the central limit theorem, a great many things are distributed normally. But If there's one thing that's not distributed normally, it's catastrophic events. Models based on normal distributions underestimate the risk of crashes by orders of magnitidue. Yet a large portion of modern finance is built upon normal distributions, from portfolio optimization to the Sharpe ratio. This is a huge pain point and it means that all of our calculations for risk are wrong. Which brings me to...
 
-## Risk management is impossible
+#### Risk management is impossible
+
 I got a call from Kevin the other day. "I had a 3 hour conversation with a professor from Columbia Business School," he told me. "And the only conclusion we've come to is that diversification is bullshit."
 
 Well that's not good for our risk management strategy. Believe me, we've tried all sorts of models. Black-Litterman, PCA, Kelly Strategies, you name it. The fundamental problem with any model is that it has unknown parameters. And to estimate these parameters, you have to make forecasts, which will invariably be wrong. The best risk management, as they say, is to not trade at all.
