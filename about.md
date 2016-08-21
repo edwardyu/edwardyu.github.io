@@ -8,3 +8,5 @@ Hi, I'm Edward Yu. I'm a student studying applied mathematics at Columbia Univer
 [Github](https://github.com/edwardyu)
 
 [LinkedIn](https://www.linkedin.com/in/edward-yu-443b6632)
+
+[Quora](https://www.quora.com/profile/Edward-Yu-2)
