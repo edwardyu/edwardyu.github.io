@@ -2,7 +2,7 @@
 layout: post
 title:  "Startup Ideas"
 date:   2016-08-20 17:37:02 -0700
-categories: 
+categories: startups
 ---
 As they say, startup ideas are worthless. I've decided to release my list of ideas that I've been keeping.  
 

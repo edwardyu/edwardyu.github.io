@@ -2,7 +2,7 @@
 layout: post
 title:  "Starting an Algorithmic Trading Fund"
 date:   2016-08-21 -0300
-categories: 
+categories: finance
 ---
 
 Sometime around March 2016, a friend approached me with the idea of doing some algorithmic trading with our own money. An initial team of 5 was assembled, and this post details the beginning of that journey. 
