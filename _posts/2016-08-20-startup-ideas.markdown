@@ -4,7 +4,10 @@ title:  "Startup Ideas"
 date:   2016-08-20 17:37:02 -0700
 categories: startups
 ---
-As they say, startup ideas are worthless. I've decided to release my list of ideas that I've been keeping.  
+As they say, startup ideas are worthless. I've decided to release my list of ideas that I've been keeping. 
+
+**Idea:** Deep learning applied to summarizing audio 
+**Notes:** Record lectures with a smartphone, get notes emailed to you. 
 
 **Idea:** Quantum consulting service  
 **Notes:** Wouldn't your business in 20 years need experts to implement quantum algorithms to optimize your work?

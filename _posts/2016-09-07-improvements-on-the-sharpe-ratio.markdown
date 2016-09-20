@@ -29,11 +29,15 @@ $$\hat{\mu}_p = \frac{1}{T} \sum_t p_t$$
 
 (just averaging the returns)
 
-$$\hat{\sigma} = \frac{1}{T - 1} \sum_t (p_t - \hat{\mu}_p)^2$$
+$$\hat{\sigma} = \sqrt{\frac{1}{T - 1} \sum_t (p_t - \hat{\mu}_p)^2}$$
 
-This typically doesn't perform too well. "Jobson and Korkie (1981) use 25 years of monthly returns and show that the realized
+This typically doesn't perform too well. 
+
+> Jobson and Korkie (1981) use 25 years of monthly returns and show that the realized
 Sharpe ratios of a portfolio that optimizes on the basis of point estimates of µ, Σ is 0.08,
-versus 0.34 for a portfolio using the true quantities." [[1]](http://faculty.chicagobooth.edu/nicholas.polson/research/papers/bayes2.pdf) The two main issues are the following:
+versus 0.34 for a portfolio using the true quantities. [[1]](http://faculty.chicagobooth.edu/nicholas.polson/research/papers/bayes2.pdf) 
+
+The two main issues are the following:
 
 1. We are losing a lot of information by using point estimates. Say that our Sharpe ratio estimate is 2.47. OK, but what is our confidence in this belief? It would be much more informative if we obtained an estimate of the form $$S \sim Normal(2.47, 1.5)$$. (Not necessarily normal, but just some distribution.) Then we could account for uncertainty in our prediction.
 
@@ -48,6 +52,10 @@ Assuming a normal distribution of S&P 500 daily returns, how often do we expect 
 # Bayesian Sharpe Ratio
 An interesting idea I'm proposing is to use Bayesian inference to estimate the Sharpe ratio instead. We solve problem #1 by default when we use Bayesian inference, since we will obtain a posterior distribution instead of point estimates. Now we can easily calculate the maximum a posteriori estimate of the Sharpe ratio, or calculate the variance of our estimate, etc. Problem #2 is also rectified in the Bayesian case if we specify heavy-tailed distributions for our priors. 
 
-The downside is that there is no easy way to obtain a closed-form formula for the Sharpe ratio in this case. We will have to rely on computationally expensive Markov Chain Monte Carlo methods. 
+The downside is that there is no easy way to obtain a closed-form formula for the Sharpe ratio in this case. We will have to rely on computationally expensive Markov Chain Monte Carlo methods. Time to load my trustworthy PyMC module. 
 
 # Comparing results on S&P 500 returns
+
+TODO: 
+Write results of simulation
+http://fs2.american.edu/jpnolan/www/stable/StableFinance23Mar2005.pdf
