@@ -22,12 +22,10 @@ There are so many things wrong with this picture, I don't even know where to beg
 4. It has 287 citations according to Google Scholar. Has nobody taken a calculus course?!
 
 5. 
-> "The validation of the formula by means of comparison with a 'true value' is useless and contains several fallacies. First, because of the geometrical interpretation of the trapezoidal rule, it is clear that the expression tends towards the true area under the curve (AUC) if the number of considered curve points increases. Hence, the adequacy of the trapezoidal rule is dependent on the number of curve points and cannot be investigated by a few examples. Second, the AUC value measured graphically by counting the numbers of small units under the curve is not the true AUC value. Thus, for comparison, not the true but another approximation was used." 
+> "The validation of the formula by means of comparison with a 'true value' is useless and contains several fallacies. First, because of the geometrical interpretation of the trapezoidal rule, it is clear that the expression tends towards the true area under the curve (AUC) if the number of considered curve points increases. Hence, the adequacy of the trapezoidal rule is dependent on the number of curve points and cannot be investigated by a few examples. Second, the AUC value measured graphically by counting the numbers of small units under the curve is not the true AUC value. Thus, for comparison, not the true but another approximation was used."     
+-Ralf Bender, PhD.
 
-Ralf Bender, PhD.
-
-6. > "Tai stated that her 'standard (true value)... is obtained by plotting the curve on graph paper and counting number of small units under the curve' (p. 153). By definition, the sum of the areas of the small units, which she erroneously refers to as the 'true value', should be exactly the area found by the trapezoidal rule. The formula should have been 100% accurate because she defined truth to be exactly the sum of the area of the graph paper trapezoids." 
-
-Jane H. Monaco, MS, and Randy L. Anderson, PhD. 
+6. > "Tai stated that her 'standard (true value)... is obtained by plotting the curve on graph paper and counting number of small units under the curve' (p. 153). By definition, the sum of the areas of the small units, which she erroneously refers to as the 'true value', should be exactly the area found by the trapezoidal rule. The formula should have been 100% accurate because she defined truth to be exactly the sum of the area of the graph paper trapezoids."    
+-Jane H. Monaco, MS, and Randy L. Anderson, PhD. 
 
 In light of this, I'm proposing Yu's Model - an extension of Tai's model that works for multivariate functions. It works by summing the volumes of hyperrectangles under the curve. 
