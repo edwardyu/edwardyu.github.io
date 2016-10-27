@@ -6,7 +6,7 @@ categories: startups
 ---
 As they say, startup ideas are worthless. I've decided to release my list of ideas that I've been keeping. 
 
-**Idea:** Deep learning applied to summarizing audio 
+**Idea:** Deep learning applied to summarizing audio    
 **Notes:** Record lectures with a smartphone, get notes emailed to you. 
 
 **Idea:** Quantum consulting service  
