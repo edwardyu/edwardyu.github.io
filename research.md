@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 #### Bayesian Reinforcement Learning
-*Department of Applied Mathematics, Columbia University (2016)*
+*Department of Applied Mathematics, Columbia University (2016 - Present)*
 
 Working with Professor Chris Wiggins in Columbia's Department of Applied Mathematics to investigate the multi-armed bandit problem. 
 We are working on nonparametric reinforcement learning models that will work regardless of the distribution of the reward. 
