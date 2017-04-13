@@ -9,7 +9,7 @@ permalink: /research/
 Working with Professor Chris Wiggins in Columbia's Department of Applied Mathematics to investigate the multi-armed bandit problem. 
 We are working on nonparametric reinforcement learning models that will work regardless of the distribution of the reward. 
 
-#### Personalized Anticancer Medicine Targeting via Machine Learning
+#### [Personalized Anticancer Medicine Targeting via Machine Learning](/assets/nflx_poster.pdf)
 *Data Science Institue + Columbia University Medical Center, Columbia University (2016 - Present)*
 
 Glioblastomas are an aggressive form of malignant brain tumour, with high tumour heterogeneity, poor patient prognoses, and limited treatment options. Leveraging public-domain genomic and chemotherapeutic drug response datasets, as well as open-source cheminformatics tools, we train modified-LASSO regression models (inspired by the Netflix recommendation system approach) to learn drug-gene interactions pertinent to predicting drug sensitivity. The resulting model is deigned for eventual laboratory validation on patient-derived glioblastoma cells.
