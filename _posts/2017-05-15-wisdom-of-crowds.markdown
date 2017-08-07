@@ -44,6 +44,6 @@ Imagine two worlds: the real world (i.e., Harrisburg is the capital) and a count
 
 If you ever happen to try this algorithm in a real world setting, please contact me! I'd love to have more data on how this heuristic performs in the field.
 
-
+<br>
 
 *(I'm generously being supported this summer by a research grant from Columbia University. As such I'm writing a series of blog posts about my experience and interesting ideas that I come across in my field of research.)*
