@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Policy Gradients from Scratch: Part 1"
+title:  "Policy Gradients from Scratch with Python"
 date:   2017-08-07 00:00:00
 categories:
 - cs
