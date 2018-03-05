@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-Hi, I'm Edward Yu. I'm a student studying applied mathematics at Columbia University. Some of my interests are Bayesian statistics, deep learning, and algorithmic trading. You may find some of the links below helpful. Contact me at [edwardy20@gmail.com](mailto:edwardy20@gmail.com).
+Hi, I'm Edward Yu. I'm a quant who runs an algorithmic trading firm. Previously, I worked on data science at Facebook and was a ML researcher at Columbia's Data Science Institute. I graduated with a BS in applied mathematics from Columbia University. You may find some of the links below helpful. Contact me at [edwardy20@gmail.com](mailto:edwardy20@gmail.com).
 
 # Ventures
 #### [Qu Capital](http://qu.capital)
