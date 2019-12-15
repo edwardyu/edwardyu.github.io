@@ -8,7 +8,7 @@ Unfortunately much of my research is proprietary now, and directly focused on im
 #### Bayesian Reinforcement Learning
 *Data Science Institute, Columbia University (2016 - 2017)*
 
-Working with Professor Chris Wiggins in Columbia's Department of Applied Mathematics to investigate the multi-armed bandit problem. 
+Worked with Professor Chris Wiggins in Columbia's Department of Applied Mathematics to investigate the multi-armed bandit problem. 
 We worked on nonparametric reinforcement learning models that will work regardless of the distribution of the reward. 
 
 <br>
