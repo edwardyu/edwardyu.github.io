@@ -7,7 +7,7 @@ Hi, I'm Edward Yu. I'm currently Head of Quantitative Research at [Genesis Tradi
 
 # Ventures
 #### [Qu Capital](http://qu.capital)
-A quantitative trading focused on cryptocurrencies. Acquired by Genesis Trading in 2019.
+A quantitative trading firm focused on cryptocurrencies. Acquired by Genesis Trading in 2019.
 
 # Links
 [Research](/research) | [Github](https://github.com/edwardyu) | [LinkedIn](https://www.linkedin.com/in/edward-yu-443b6632) | [Quora](https://www.quora.com/profile/Edward-Yu-2)

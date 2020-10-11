@@ -3,13 +3,12 @@ layout: page
 title: Research
 permalink: /research/
 ---
-Unfortunately much of my research is proprietary now, and directly focused on improving and building statistical models for quantitative trading. I've kept the links below from my undergradudate years, although I am very much a practioner and not so much an academic these days.
+Unfortunately much of my research is proprietary now, and directly focused on improving and building statistical models for quantitative trading. I've kept public what I can, although I am very much a practioner and not so much an academic.
 
-#### Bayesian Reinforcement Learning
-*Data Science Institute, Columbia University (2016 - 2017)*
+#### Bayesian Neural Networks with Soft Evidence
+*Genesis Trading (forthcoming)*
 
-Worked with Professor Chris Wiggins in Columbia's Department of Applied Mathematics to investigate the multi-armed bandit problem. 
-We worked on nonparametric reinforcement learning models that will work regardless of the distribution of the reward. 
+Bayes's rule deals with hard evidence, that is, we can calculate the probability of event A occuring given that event B has occurred. Soft evidence, on the other hand, involves a degree of uncertainty about whether event B has actually occurred or not. Jeffrey's rule of conditioning provides a way to update beliefs in the case of soft evidence. We provide a framework to learn a probability distribution on the weights of a neural network trained using soft evidence by way of two simple algorithms for approximating Jeffrey conditionalization. We propose an experimental protocol for benchmarking these algorithms on empirical datasets, even when the data is purposely corrupted.
 
 <br>
 

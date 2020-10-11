@@ -56,9 +56,11 @@ exclude:
   - .gitignore
   - .sass-cache
   - Gemfile.lock
+exclude: [vendor]
 
 # Sass conversion configs
 sass:
     sass_dir: assets/css/_sass
     style: :compressed
+
 
