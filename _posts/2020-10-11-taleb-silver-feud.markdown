@@ -57,7 +57,10 @@ I believe Nate Silver is answering a subtly different question with his election
 
 It is a valid criticism that perhaps Silver is not very clear on explaining what his numbers represent, and therefore the media misreports his predictions. Still, I wager that most people would find the first answer more useful. In this interpretation, the "financial instrument" is a binary option that expires every day. Thefore the time series of Silver's predictions is not interpretable as a martingale, as it strings together the price of a completely different instrument every day. 
 
-It is also a valid criticism that Silver's predictions prior to Nov. 3 mean absolutely nothing, whereas in the Taleb formulation it has a natural interpreation as the betting odds for each candidate. Silver has explicitly stated that he only judges his models based on his finalized prediction. To that end, his models are extremely well calibrated, i.e., when he says something has a 50% chance of happening it actually does happen 50% of the time.
+It is also a valid criticism that Silver's predictions prior to Nov. 3 mean absolutely nothing, whereas in the Taleb formulation it has a natural interpretation as the betting odds for each candidate. Silver has explicitly stated that he only judges his models based on his finalized prediction. To that end, his models are extremely well calibrated, i.e., when he says something has a 50% chance of happening it actually does happen 50% of the time.
 ![538 calibration](/assets/538-calibration.png)
 
 In conclusion, Taleb and Silver should be having a philosophical debate on what pollsters' numbers actually mean, and stay away from the useless distraction of calling each other names on Twitter.
+
+### Update (10/12/2020)
+Andrew Gelman, Aubrey Clayton, Dhruv Madeka and many other statisticians respond and give their thoughts: [https://statmodeling.stat.columbia.edu/2020/10/12/more-on-martingale-property-of-probabilistic-forecasts-and-some-other-issues-with-our-election-model/](https://statmodeling.stat.columbia.edu/2020/10/12/more-on-martingale-property-of-probabilistic-forecasts-and-some-other-issues-with-our-election-model/)
