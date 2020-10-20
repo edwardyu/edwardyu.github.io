@@ -5,7 +5,7 @@ permalink: /research/
 ---
 Unfortunately much of my research is proprietary now, and directly focused on improving and building statistical models for quantitative trading. I've kept public what I can, although I am very much a practioner and not so much an academic.
 
-#### Bayesian Neural Networks with Soft Evidence
+#### [Bayesian Neural Networks with Soft Evidence](https://arxiv.org/abs/2010.09570)
 *E. Yu (2020)*
 
 Bayes's rule deals with hard evidence, that is, we can calculate the probability of event A occuring given that event B has occurred. Soft evidence, on the other hand, involves a degree of uncertainty about whether event B has actually occurred or not. Jeffrey's rule of conditioning provides a way to update beliefs in the case of soft evidence. We provide a framework to learn a probability distribution on the weights of a neural network trained using soft evidence by way of two simple algorithms for approximating Jeffrey conditionalization. We propose an experimental protocol for benchmarking these algorithms on empirical datasets, even when the data is purposely corrupted.
