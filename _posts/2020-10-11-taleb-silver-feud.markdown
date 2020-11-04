@@ -66,4 +66,5 @@ In conclusion, Taleb and Silver should be having a philosophical debate on what 
 Andrew Gelman, Aubrey Clayton, Dhruv Madeka and many other statisticians respond and give their thoughts: [https://statmodeling.stat.columbia.edu/2020/10/12/more-on-martingale-property-of-probabilistic-forecasts-and-some-other-issues-with-our-election-model/](https://statmodeling.stat.columbia.edu/2020/10/12/more-on-martingale-property-of-probabilistic-forecasts-and-some-other-issues-with-our-election-model/)
 
 ### Update 2 (11/3/2020)
-Nassim Taleb [responds to this post on Twitter](https://twitter.com/nntaleb/status/1323594733797679104)
+* Nassim Taleb responds to this post on [Twitter](https://twitter.com/nntaleb/status/1323594733797679104)
+* [Hacker News discussion](https://news.ycombinator.com/item?id=24976175)
