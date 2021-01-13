@@ -6,6 +6,9 @@ permalink: /about/
 Hi, I'm Edward Yu. I'm currently Head of Quantitative Research at [Genesis Trading](https://genesistrading.com/), one of the largest crypto trading firms in the world. I joined Genesis after the acquisition of Qu Capital, a quantitative trading firm that I co-founded. Prior to that, I worked on data science at Facebook and was a ML researcher at Columbia's Data Science Institute. I graduated with a BS in applied mathematics from Columbia University in 2017. You may find some of the links below helpful. Contact me at [edwardy20@gmail.com](mailto:edwardy20@gmail.com).
 
 # Ventures
+#### [TPOT](https://github.com/EpistasisLab/tpot)
+TPOT stands for Tree-based Pipeline Optimization Tool. TPOT is an AutoML library using genetic programming and is mainly supported by researchers at the University of Pennsylvania. I am an open-source contributor to this project.
+
 #### Consulting/Advisory
 I focus on projects in applied machine learning, Bayesian statistics, or quantitative finance. Feel free to reach out! 
 
