@@ -12,7 +12,7 @@ title: About
 </p>
 
 # Professional stuff
-* 2021-Present: **Variational Research** - a protocol to enable bilateral derivatives on any underlying time series. We're a small team backed by venture capital.
+* 2021-Present: **[Variational Research](https://variational.io)** - I founded a protocol to enable bilateral derivatives on any underlying time series. We're a small team backed by venture capital.
 * 2019-2021: **Genesis Trading** - I was Head of Quantitative Research for one of the largest trading firms in crypto, doing market making on linear and options markets.
 * 2017-2019: **Qu Capital** - I founded a stat arb hedge fund trading crypto. We raised money from various institutional investors and eventually sold it to Digital Currency Group (and its subsidiary, Genesis Trading).
 * 2014-2017: I studied Applied Mathematics at **Columbia University**, graduating with honors with a Bachelor of Science.
