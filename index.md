@@ -4,17 +4,17 @@ title: About
 ---
 
 <p class="message">
-  Hello, I'm Edward Yu. I'm a builder at heart, and the founder of <a href="https://variational.io">Variational Research</a>, a technology firm building foundational infrastructure for digital assets. I'm interested in Bayesian statistics, machine learning/AI, quantitative trading, and decentralized applications.
+  Hello, I'm Edward Yu. I'm a builder at heart, and the founder of <a href="https://variational.io">Variational Research</a>, a technology firm building peer-to-peer decentralized derivatives. I'm interested in Bayesian statistics, machine learning/AI, quantitative trading, and decentralized applications.
 <br><br>
-  The cities in which I spend the most time these days are (in no particular order): New York, NY; Berkeley, CA; Grand Cayman, Cayman Islands; Taipei, Taiwan. 
+  The cities in which I spend the most time these days are (in no particular order): New York, NY; Berkeley, CA; Taipei, Taiwan. 
   <br><br>
   Contact me at edwardy20@gmail.com
 </p>
 
 # Professional stuff
-* 2021-Present: **[Variational Research](https://variational.io)** - I founded a protocol to enable bilateral derivatives on any underlying time series. We're a small team backed by venture capital.
+* 2021-Present: **[Variational Research](https://variational.io)** - I founded a protocol to enable bilateral derivatives on any underlying time series. We're a small team backed by venture capital. News: <a href="https://www.theblock.co/post/322653/arbitrum-crypto-protocol-variational-funding">$10m seed raise by Bain Capital Crypto, Peak XV, Coinbase Ventures, Dragonfly, others.</a>
 * 2019-2021: **Genesis Trading** - I was Head of Quantitative Research for one of the largest trading firms in crypto, doing market making on linear and options markets.
-* 2017-2019: **Qu Capital** - I founded a stat arb hedge fund trading crypto. We raised money from various institutional investors and eventually sold it to Digital Currency Group (and its subsidiary, Genesis Trading).
+* 2017-2019: **Qu Capital** - I founded a stat arb hedge fund trading crypto. We raised money from various institutional investors and eventually [sold it](https://www.coindesk.com/markets/2019/09/20/genesis-trading-acquires-quant-investment-firm-qu-capital) to Digital Currency Group (and its subsidiary, Genesis Trading).
 * 2014-2017: I studied Applied Mathematics at **Columbia University**, graduating with honors with a Bachelor of Science.
 
 # Research
@@ -42,4 +42,4 @@ Methods for unsupervised anomaly detection suffer from the fact that the data is
 # Investing
 My investing philosophy: many diversified alphas and a healthy dose of leverage.
 
-I'm an angel investor in various startups. I prefer seed stage or series A. 
+I'm an angel investor in ~20 startups. I prefer seed stage or series A. 
