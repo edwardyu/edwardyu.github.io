@@ -11,6 +11,11 @@ title: About
   Contact me at edwardy20@gmail.com
 </p>
 
+# Writing
+{% for post in site.posts %}
+* [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
+{% endfor %}
+
 # Professional stuff
 * 2021-Present: **[Variational Research](https://variational.io)** - I founded a protocol to enable bilateral derivatives on any underlying time series. We're a small team backed by venture capital. News: <a href="https://www.theblock.co/post/322653/arbitrum-crypto-protocol-variational-funding">$10m seed raise by Bain Capital Crypto, Peak XV, Coinbase Ventures, Dragonfly, others.</a>
 * 2019-2021: **Genesis Trading** - I was Head of Quantitative Research for one of the largest trading firms in crypto, doing market making on linear and options markets.
