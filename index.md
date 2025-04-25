@@ -11,16 +11,16 @@ title: About
   Contact me at edwardy20@gmail.com
 </p>
 
-# Writing
-{% for post in site.posts %}
-* ({{ post.date | date: "%Y-%m-%d" }}) [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
-{% endfor %}
-
 # Professional stuff
 * 2021-Present: **[Variational Research](https://variational.io)** - I founded a protocol to enable bilateral derivatives on any underlying time series. We're a small team backed by venture capital. News: <a href="https://www.theblock.co/post/322653/arbitrum-crypto-protocol-variational-funding">$10m seed raise by Bain Capital Crypto, Peak XV, Coinbase Ventures, Dragonfly, others.</a>
 * 2019-2021: **Genesis Trading** - I was Head of Quantitative Research for one of the largest trading firms in crypto, doing market making on linear and options markets.
 * 2017-2019: **Qu Capital** - I founded a stat arb hedge fund trading crypto. We raised money from various institutional investors and eventually [sold it](https://www.coindesk.com/markets/2019/09/20/genesis-trading-acquires-quant-investment-firm-qu-capital) to Digital Currency Group (and its subsidiary, Genesis Trading).
 * 2014-2017: I studied Applied Mathematics at **Columbia University**, graduating with honors with a Bachelor of Science.
+
+# Writing
+{% for post in site.posts %}
+* ({{ post.date | date: "%Y-%m-%d" }}) [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+{% endfor %}
 
 # Research
 * [Bayesian Neural Networks with Soft Evidence](https://arxiv.org/abs/2010.09570). *Presented at the 2021 International Conference on Machine Learning workshop on Uncertainty & Robustness in Deep Learning*
