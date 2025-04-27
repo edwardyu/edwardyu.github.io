@@ -8,6 +8,6 @@ categories:
 I want to start writing more, and publish the posts on this website. My primary intended audience is actually myself. The world is changing so fast, and we are changing with it. I want to look back years later and have a snapshot of what my philosophy was at the time, and perhaps chuckle at how naive I was. I've never been one to give advice to other people anyhow, because our life circumstances could be totally different, and who am I to tell you anything? Therefore take any advice posts with a huge grain of salt, and know that it's mostly written for future me.
 
 Post ideas:
-- quick and dirty guide for hacking your greeks for retail options traders
+- ~~quick and dirty guide for hacking your greeks for retail options traders~~
 - my retrospective on Taiwanese culture
 - advice for ambitious people in the age of AI
