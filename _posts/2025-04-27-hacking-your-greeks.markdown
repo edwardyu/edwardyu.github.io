@@ -7,7 +7,7 @@ categories:
 ---
 
 # The market maker vs the path-independent options trader
-There's a common school of thought which views options as discrete, static bets. Check out Reddit's wallstreetbets community for plenty of examples where a degenerate gambler buys 0DTE options and holds them to expiry; if they expire in the money then he celebrates his newfound riches, and if not then he loses everything. I wouldn't say it's wrong per se to view options like this, after all, the payoff of a vanilla option is mathematically $$\max(S-K,0)$$. But there are several shortcomings with this worldview:
+There's a common school of thought which views options as discrete, static bets. Check out Reddit's wallstreetbets community for plenty of examples where a degenerate gambler buys 0DTE options and holds them to expiry; if they expire in the money then he celebrates his newfound riches, and if not then he loses everything. I wouldn't say it's wrong per se to view options like this, after all, the payoff of a vanilla option is mathematically $$ \max(S-K,0) $$. But there are several shortcomings with this worldview:
 
 - You're not obligated to hold positions to expiry, you can close them in between.
 - If you have dozens or hundreds of positions, are you really going to keep track of them in your head as discrete probabilistic bets?
@@ -59,9 +59,9 @@ The main problem with theta is that if one day passes, we can't assume the IV wi
 ![Volatility Curve](/public/Implied%20Volatility%20Curve.png)
 
 ## Vega
-Speaking of the volatility term structure, it's well-known that the front of the curve is much more sensitive and will move with much greater magnitude than the back of the curve. Comparing raw vegas across two options with different expiries is useless, because it assumes the curve will shift in a parallel manner up or down. Instead, we can use an approximation that it follows a $\sqrt T$ scaling factor. The time-weighted vega is benchmarked to, for example, a 90-day expiry:
+Speaking of the volatility term structure, it's well-known that the front of the curve is much more sensitive and will move with much greater magnitude than the back of the curve. Comparing raw vegas across two options with different expiries is useless, because it assumes the curve will shift in a parallel manner up or down. Instead, we can use an approximation that it follows a $1 / \sqrt T$ scaling factor. The time-weighted vega is benchmarked to, for example, a 90-day expiry:
 
-$$\text{vega} * \sqrt{\frac{90}{T}}$$
+$$\text{time-weighted vega} = \text{vega} * \sqrt{\frac{90}{T}}$$
 
 ## Bonus: delta and gamma bleed
 Your deltas and gammas are changing as time passes. Recompute your delta and gamma by time-stepping forward 1 day, and take the difference between the forward value and the present value. This represents your "bleed", or how much your deltas and gammas will change in 1 day.
