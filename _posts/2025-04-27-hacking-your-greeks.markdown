@@ -7,7 +7,11 @@ categories:
 ---
 
 # The market maker vs the path-independent options trader
-There's a common school of thought which views options as discrete, static bets. Check out Reddit's wallstreetbets community for plenty of examples where a degenerate gambler buys 0DTE options and holds them to expiry; if they expire in the money then he celebrates his newfound riches, and if not then he loses everything. I wouldn't say it's wrong per se to view options like this, after all, the payoff of a vanilla option is mathematically $$ \max(S-K,0) $$. But there are several shortcomings with this worldview:
+There's a common school of thought which views options as discrete, static bets. Check out Reddit's wallstreetbets community for plenty of examples where a degenerate gambler buys 0DTE options and holds them to expiry; if they expire in the money then he celebrates his newfound riches, and if not then he loses everything. I wouldn't say it's wrong per se to view options like this, after all, the payoff of a vanilla option is mathematically 
+
+$$ \max(S-K,0) $$
+
+But there are several shortcomings with this worldview:
 
 - You're not obligated to hold positions to expiry, you can close them in between.
 - If you have dozens or hundreds of positions, are you really going to keep track of them in your head as discrete probabilistic bets?
@@ -43,7 +47,11 @@ This one table, reproduced below, that has had the most influence on my trading 
 | **Vega** | Sensitivity of an option's value to changes in volatility. | • Misleading for calendar-spread portfolios—different maturities have different vol-of-vol. | Apply a **volatility-curve model** for weighting; advanced: use a **covariance matrix** across maturity buckets. |
 
 ## Takeaway: none of the greeks exist in isolation!
-Throw away the academic texts which produce lines upon lines of partial derivatives to explain the greeks. None of that matters in practice. The real takeaway is that all of the greeks are interdependent on each other. Easy example: let's say tomorrow the SPX drops 10%. Our delta number that we computed is meaningless if we assume that the IV will stay static. It's much more reasonable to assume that IV will jump from current number -> much higher number. We should use this more reasonable IV to compute delta, gamma, etc. The second takeaway is that the greeks are partial derivatives, and are therefore a localized number. They only explain what happens on an infinitesimal shift, not a large jump. In all cases, it's more accurate to compute your greeks assuming a 1 standard deviation move to the upside or downside. I use a daily standard deviation equal to $$ IV * \frac{1}{\sqrt{252}} $$, but you can scale the move according to your desired hedging frequency.
+Throw away the academic texts which produce lines upon lines of partial derivatives to explain the greeks. None of that matters in practice. The real takeaway is that all of the greeks are interdependent on each other. Easy example: let's say tomorrow the SPX drops 10%. Our delta number that we computed is meaningless if we assume that the IV will stay static. It's much more reasonable to assume that IV will jump from current number -> much higher number. We should use this more reasonable IV to compute delta, gamma, etc. The second takeaway is that the greeks are partial derivatives, and are therefore a localized number. They only explain what happens on an infinitesimal shift, not a large jump. In all cases, it's more accurate to compute your greeks assuming a 1 standard deviation move to the upside or downside. I use a daily standard deviation equal to 
+
+$$ IV * \frac{1}{\sqrt{252}} $$
+
+but you can scale the move according to your desired hedging frequency.
 
 # Guide to modifying your greeks
 ## Delta
