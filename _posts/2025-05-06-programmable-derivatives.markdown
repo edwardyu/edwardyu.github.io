@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Programmable Derivatives: a Vision for Variational's Future"
-date:   2025-04-27 00:00:00
+date:   2025-05-06 00:00:00
 categories:
 - variational
 ---
@@ -43,7 +43,9 @@ But let’s say you wanted to create your own OTC desk, one that provides liquid
 1. You would generate a settlement pool, and define rules for collateral and liquidation. Let’s say you allow 5x leverage, so the collateral requirement will be 20% of the notional contract size, and liquidation occurs at 10%.   
 2. You would need to provide an oracle that conforms to our API requirements. For example, let’s say you had a Websocket stream that defines the mark price for the derivative as the win probability:
 
+<div style="text-align: center">
 ![][image1]
+</div>
 
 3. You would need to provide quotes, bids and asks that reflect commitments to buy and sell the derivative at a specified price.
 
@@ -61,9 +63,13 @@ In this new world, we can view the protocol as “Shopify for derivatives”. Us
 
 | Use case | Why peer-to-peer wins |
 | :---- | :---- |
-| Crypto perpetual futures, altcoin options | Enables profit sharing mechanisms (zero fees, loss refunds, vaults) between makers and takers, many of which will be implemented on Omni If someone manages to lose a trillion dollars, this causes bad debt in one settlement pool but does not crash the financial system, e.g., unlike FTX |
+| Crypto perpetual futures, altcoin options | Enables profit sharing mechanisms (zero fees, loss refunds, vaults) between makers and takers, many of which will be implemented on Omni. 
+
+If someone manages to lose a trillion dollars, this causes bad debt in one settlement pool but does not crash the financial system, e.g., unlike FTX |
 | OTC structured products, for example, yield generation on locked tokens  | Allows flexibility in designing the structured product. For example, selling covered calls using a SAFT as collateral. This is all based on mutual trust between the counterparties. |
-| Equities perpetual futures | Allows specialized mms to setup for each local region, for example, US listed stocks vs HK listed stocks Each settlement pool can have customized collateral in the local currency |
+| Equities perpetual futures | Allows specialized mms to setup for each local region, for example, US listed stocks vs HK listed stocks 
+
+Each settlement pool can have customized collateral in the local currency |
 | Prediction markets for elections, sports, and other events | Needs specialized oracle providers and data feeds, this again allows for specialized providers for each subset of the market (basketball vs presidential elections vs F1). |
 
 # But why though?
