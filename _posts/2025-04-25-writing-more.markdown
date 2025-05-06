@@ -11,3 +11,8 @@ Post ideas:
 - ~~quick and dirty guide for hacking your greeks for retail options traders~~
 - my retrospective on Taiwanese culture
 - advice for ambitious people in the age of AI
+- first impressions of perpetual options
+- ideas for offering leverage on prediction markets
+- reaction to the jordi alexander interview (https://x.com/thiccyth0t/status/1901364601243025433)
+- hedging too much
+- the fairest casino thesis
