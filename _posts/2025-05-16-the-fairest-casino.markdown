@@ -6,7 +6,7 @@ categories:
 - variational
 ---
 
-In my last essay, I wrote about the long term vision of Variational as a collection of distinct financial subnetworks that could enable the creation of programmable derivatives. Clearly, that’s still many years away, so today I want to highlight the near term vision for Omni, the retail-focused crypto perpetuals trading platform built on Variational Protocol. 
+[In my last essay](https://quant.am/variational/2025/05/06/programmable-derivatives/), I wrote about the long term vision of Variational as a collection of distinct financial subnetworks that could enable the creation of programmable derivatives. Clearly, that’s still many years away, so today I want to highlight the near term vision for [Omni](https://omni.variational.io), the retail-focused crypto perpetuals trading platform built on Variational Protocol. 
 
 The 10x improvement for users is what I’ll dub the “fairest casino thesis”. In our most recent investor letter, we wrote: 
 
