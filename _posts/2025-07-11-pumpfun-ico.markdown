@@ -23,7 +23,7 @@ Two things immediately jump out:
 2. The ratio of out-of-the-money (OTM) to at-the-money (ATM) volatility is extremely high, with the \$8B strike showing an IV of 640%.
  
 
-My intuition tells me I would want to push up the vol at the $5B strike and push down the vols at the $8B, $10B strikes. For binary options:
+My intuition tells me I would want to push up the vol at the \$5B strike and push down the vols at the \$8B, \$10B strikes. For binary options:
 
 - higher IV --> outcomes converge to 50/50  
 - lower IV --> outcomes converge to 100/0  
