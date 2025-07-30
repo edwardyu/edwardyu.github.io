@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Flirting With Models S7E18] Bringing OTC On-Chain and the VariationalOMNI Perp Dex
+title:  "(Flirting With Models S7E18) Bringing OTC On-Chain and the VariationalOMNI Perp Dex
 date:   2025-07-30 00:00:00
 categories:
 - trading
