@@ -14,5 +14,7 @@ Post ideas:
 - first impressions of perpetual options
 - ideas for offering leverage on prediction markets
 - reaction to the jordi alexander interview (https://x.com/thiccyth0t/status/1901364601243025433)
-- hedging too much
-- the fairest casino thesis
+- ~~hedging too much~~
+- ~~the fairest casino thesis~~
+- Why DEXes are a terrible business model
+- Is Bayesian deep learning dead?
