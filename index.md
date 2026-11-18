@@ -13,7 +13,7 @@ title: About
 
 # Professional stuff
 * 2021-Present: **[Variational Research](https://variational.io)** - I founded a protocol to enable bilateral derivatives on any underlying time series. We're a small team backed by venture capital. News: <a href="https://www.bloomberg.com/news/articles/2026-11-18/hyperliquid-rival-hits-1-5-billion-valuation-as-perps-boom?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NTAxMTQ2NywiZXhwIjoxNzk1NjE2MjY3LCJhcnRpY2xlSWQiOiJUT05TU0VWVFRDWlcwMCIsImJjb25uZWN0SWQiOiI2NjAwRjlCMTk5NzA0MkUxODI5MjBFRjNBNDYwQ0YyMCJ9.mPB4TqrR3dJriuSRqBZ-JbqZ62K2wCFTAI9irLDFtZQ&leadSource=article-gifting">$110m Series B @ $1.5b valuation, led by Bain Capital</a>
-* 2019-2021: **Genesis Trading** - I was Head of Quantitative Research for one of the largest trading firms in crypto, doing market making on linear and options markets.
+* 2019-2021: **Genesis Trading**, a [DCG](https://dcg.co/) subsidiary - I was Head of Quantitative Research for one of the largest trading firms in crypto, doing market making on linear and options markets.
 * 2017-2019: **Qu Capital** - I founded a stat arb hedge fund trading crypto. We raised money from various institutional investors and eventually [sold it](https://www.coindesk.com/markets/2019/09/20/genesis-trading-acquires-quant-investment-firm-qu-capital) to Digital Currency Group (and its subsidiary, Genesis Trading).
 * 2014-2017: I studied Applied Mathematics at **Columbia University**, graduating with honors with a Bachelor of Science.
 
